@@ -38,7 +38,7 @@ Choose_Version(){
     ${Green_font_prefix}9.${Font_color_suffix} 安装1.8.9
     ${Green_font_prefix}10.${Font_color_suffix} 安装1.7.10
     "
-    echo && read -e -p "请输入数字 [1-2]：" num
+    echo && read -e -p "请输入数字 [1-10]：" num
     case "$num" in
         1)
         wget https://launcher.mojang.com/v1/objects/1b557e7b033b583cd9f66746b7a9ab1ec1673ced/server.jar
@@ -71,7 +71,7 @@ Choose_Version(){
         wget https://launcher.mojang.com/v1/objects/952438ac4e01b4d115c5fc38f891710c4941df29/server.jar
         ;;
         *)
-        echo -e "${Error} 请输入正确的数字 [1-2]"
+        echo -e "${Error} 请输入正确的数字 [1-10]"
         ;;
     esac
 }
