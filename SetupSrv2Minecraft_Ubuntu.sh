@@ -114,9 +114,9 @@ case "$num" in
 	3)
 	Console
 	;;
-    4)
-    Uninstall
-    ;;
+	4)
+	Uninstall
+	;;
 	*)
 	echo -e "${Error} 请输入正确的数字 [1-4]"
 	;;
