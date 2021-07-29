@@ -100,7 +100,7 @@ echo -e "  dlserver2MC  ${Red_font_prefix}
 ${Green_font_prefix}1.${Font_color_suffix} 安装
 ${Green_font_prefix}2.${Font_color_suffix} 运行
 ${Green_font_prefix}3.${Font_color_suffix} 进入控制台
-${Green_font_prefix}4.${Font_color_suffix} 卸载
+${Green_font_prefix}4.${Font_color_suffix} 卸载(请先关闭服务器)
 "
 
 echo && read -e -p "请输入数字 [1-4]：" num
