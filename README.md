@@ -14,3 +14,8 @@ bash SetupSrv2Minecraft_Ubuntu.sh
 - 生成文件保存在/home/Minecraft下
 - 切记在防火墙内放行25565端口
 - [server.properties配置](https://minecraft-zh.gamepedia.com/Server.properties)
+- 默认运行参数为-Xmx1536M -Xms1024M
+- 返回控制台
+```
+screen -r Minecraft
+```
