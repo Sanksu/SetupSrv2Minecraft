@@ -1,7 +1,8 @@
 # SetupSrv2Minecraft
-在云主机上快速搭建Minecraft服务器
-目前只测试过腾讯云的轻量应用服务器，版本1.16.5、1.14.4,系统为	Ubuntu Server 20.04 LTS 64bit
-小白，第一次写shell，有问题请提Issues或直接帮我改吧(;w;)
+在云主机上快速搭建Minecraft服务器  
+目前只测试过腾讯云的轻量应用服务器，版本1.16.5、1.14.4,系统为	Ubuntu Server 20.04 LTS 64bit  
+小白，第一次写shell，有问题请提Issues或直接帮我改吧(;w;)  
+
 
 # 使用
 ## Ubuntu
