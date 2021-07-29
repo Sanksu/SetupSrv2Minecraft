@@ -34,9 +34,9 @@ Choose_Version(){
     ${Green_font_prefix}5.${Font_color_suffix} 安装1.12.2
     ${Green_font_prefix}6.${Font_color_suffix} 安装1.11.2
     ${Green_font_prefix}7.${Font_color_suffix} 安装1.10.2
-    ${Green_font_prefix}7.${Font_color_suffix} 安装1.9.4
-    ${Green_font_prefix}7.${Font_color_suffix} 安装1.8.9
-    ${Green_font_prefix}7.${Font_color_suffix} 安装1.7.10
+    ${Green_font_prefix}8.${Font_color_suffix} 安装1.9.4
+    ${Green_font_prefix}9.${Font_color_suffix} 安装1.8.9
+    ${Green_font_prefix}10.${Font_color_suffix} 安装1.7.10
     "
     echo && read -e -p "请输入数字 [1-2]：" num
     case "$num" in
