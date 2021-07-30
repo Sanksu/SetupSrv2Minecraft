@@ -26,7 +26,7 @@ java -Xmx1536M -Xms1024M -jar server.jar nogui" > run.sh
 
 Choose_Version(){
     echo -e "  Choose Version  ${Font_color_suffix}
-    ---- dlserver2MC | 选择版本 ----
+    ---- SetupSrv2Minecraft | 选择版本 ----
     ${Green_font_prefix}1.${Font_color_suffix} 安装1.16.5
     ${Green_font_prefix}2.${Font_color_suffix} 安装1.15.2
     ${Green_font_prefix}3.${Font_color_suffix} 安装1.14.4
@@ -95,8 +95,8 @@ Uninstall(){
     rm -rf /home/Minecraft
 }
 
-echo -e "  dlserver2MC  ${Red_font_prefix}
----- Sanksu | dlserver2MC ----
+echo -e "  SetupSrv2Minecraft  ${Red_font_prefix}
+---- Sanksu | SetupSrv2Minecraft ----
 ${Green_font_prefix}1.${Font_color_suffix} 安装
 ${Green_font_prefix}2.${Font_color_suffix} 运行
 ${Green_font_prefix}3.${Font_color_suffix} 进入控制台
