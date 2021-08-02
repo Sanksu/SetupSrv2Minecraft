@@ -19,7 +19,7 @@ bash SetupSrv2Minecraft_Ubuntu.sh
 sudo yum install wget -y
 wget https://cdn.jsdelivr.net/gh/sanksu/SetupSrv2Minecraft@main/SetupSrv2Minecraft_CentOS.sh
 sudo su
-bash SetupSrv2Minecraft_Ubuntu.sh
+bash SetupSrv2Minecraft_CentOS.sh
 ```
 
 # 注意
