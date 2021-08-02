@@ -9,7 +9,7 @@
 ## Ubuntu
 ```
 sudo apt install wget -y
-wget https://cdn.jsdelivr.net/gh/sanksu/SetupSrv2Minecraft@main/SetupSrv2Minecraft.sh
+wget https://cdn.jsdelivr.net/gh/sanksu/SetupSrv2Minecraft@main/SetupSrv2Minecraft_Ubuntu.sh
 sudo su
 bash SetupSrv2Minecraft_Ubuntu.sh
 ```
