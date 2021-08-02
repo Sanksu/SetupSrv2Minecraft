@@ -8,7 +8,7 @@ check_root(){
 
 Install_Server1(){
     check_root
-    yum install java-1.8.0-openjdk* -y
+    yum install java-1.8.0-openjdk* screen -y
     mkdir /home/Minecraft
     cd /home/Minecraft
 }
