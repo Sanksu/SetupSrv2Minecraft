@@ -6,13 +6,22 @@
 感谢 https://github.com/ToyoDAdoubi/doubi
 
 # 使用
-## Ubuntu
+### Ubuntu
 ```
 sudo apt install wget -y
 wget https://cdn.jsdelivr.net/gh/sanksu/SetupSrv2Minecraft@main/SetupSrv2Minecraft_Ubuntu.sh
 sudo su
 bash SetupSrv2Minecraft_Ubuntu.sh
 ```
+
+### CentOS
+```
+sudo yum install wget -y
+wget https://cdn.jsdelivr.net/gh/sanksu/SetupSrv2Minecraft@main/SetupSrv2Minecraft_CentOS.sh
+sudo su
+bash SetupSrv2Minecraft_Ubuntu.sh
+```
+
 # 注意
 - 生成文件保存在/home/Minecraft下
 - 切记在防火墙内放行25565端口
