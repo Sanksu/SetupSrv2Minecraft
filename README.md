@@ -8,8 +8,8 @@
 # 使用
 ## Ubuntu
 ```
-git clone https://github.com/Sanksu/SetupSrv2Minecraft
-cd /SetupSrv2Minecraft
+sudo apt install wget -y
+wget https://cdn.jsdelivr.net/gh/sanksu/SetupSrv2Minecraft@main/SetupSrv2Minecraft.sh
 sudo su
 bash SetupSrv2Minecraft_Ubuntu.sh
 ```
