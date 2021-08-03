@@ -6,7 +6,7 @@
 感谢 https://github.com/ToyoDAdoubi/doubi
 
 # 使用
-### Ubuntu
+### Debian/Ubuntu
 ```
 sudo apt install wget -y
 wget https://cdn.jsdelivr.net/gh/sanksu/SetupSrv2Minecraft@main/SetupSrv2Minecraft_Ubuntu.sh
