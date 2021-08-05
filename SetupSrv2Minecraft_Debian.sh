@@ -22,8 +22,7 @@ Install_Server2(){
 PATH=/bin:/sbin:/usr/bin:/usr/sbin:/usr/local/bin:/usr/local/sbin:~/bin
 export PATH
 java -Xmx1536M -Xms1024M -jar server.jar nogui" > run.sh
-    ufw allow 25565/tcp
-    echo "允许25565端口，对于个别服务器提供商，请前往控制台防火墙放行25565端口"
+    echo "请前往控制台防火墙放行25565端口"
     echo "生成文件均在/home/Minecraft目录下"
 }
 
