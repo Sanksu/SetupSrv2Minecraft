@@ -8,7 +8,6 @@ check_root(){
 
 Install_Server1(){
     check_root
-    apt install wget
     wget -qO - https://adoptopenjdk.jfrog.io/adoptopenjdk/api/gpg/key/public | apt-key add -
     add-apt-repository --yes https://adoptopenjdk.jfrog.io/adoptopenjdk/deb/
     apt update && sudo apt install adoptopenjdk-8-hotspot screen -y
