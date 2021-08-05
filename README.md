@@ -18,7 +18,7 @@ bash SetupSrv2Minecraft_Ubuntu.sh
 ```
 sudo apt install wget -y
 wget https://cdn.jsdelivr.net/gh/sanksu/SetupSrv2Minecraft@main/SetupSrv2Minecraft_Debian.sh
-bash SetupSrv2Minecraft_debian.sh
+bash SetupSrv2Minecraft_Debian.sh
 ```
 ### CentOS
 ```
